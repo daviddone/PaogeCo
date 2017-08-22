@@ -1,0 +1,36 @@
+课程名称：小泡哥 python爬虫爬取电影天堂网站电影资源 重庆话
+准备工作：
+python3.5
+pip install requests 
+pip install beautifulsoup4
+
+思路：
+爬虫三步走：
+采集数据
+结构化处理数据
+数据持久化
+
+
+采集数据：
+requests采集网页源码数据
+
+网页结构分析：
+xpath，正则表达式，css选择器selector
+
+数据持久化：
+将数据保存到文件中。
+
+案例为王：
+电影天堂影片资源爬取
+网站：http://dytt8.net/
+
+详情页url：http://www.ygdy8.net/html/gndy/dyzz/20170806/54673.html
+标题：2017年动作战争《巴霍巴利王(下)：终结》BD中英双字幕
+
+
+
+
+
+
+
+
