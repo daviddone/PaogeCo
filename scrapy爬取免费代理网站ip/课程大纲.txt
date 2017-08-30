@@ -1,0 +1,45 @@
+课程名称：小泡哥 scrapy爬取免费代理网站ip 重庆话
+准备工作：
+安装 python3.5
+安装Anaconda or Miniconda （是Anaconda的mini版本）
+
+课程内容：
+scrapy简介
+scrapy安装
+scrapy项目创建
+scrapy项目目录结构
+
+
+
+scrapy安装
+conda install -c conda-forge scrapy   用conda安装scrapy
+
+scrapy项目目录结构
+tutorial/
+    scrapy.cfg            # deploy configuration file
+
+    tutorial/             # project's Python module, you'll import your code from here
+        __init__.py
+
+        items.py          # project items definition file
+
+        pipelines.py      # project pipelines file
+
+        settings.py       # project settings file
+
+        spiders/          # a directory where you'll later put your spiders
+            __init__.py
+
+案例为王：
+scrapy爬取免费代理网站ip 西刺网站  
+网站：http://www.xicidaili.com/
+
+
+
+
+
+
+
+
+
+
